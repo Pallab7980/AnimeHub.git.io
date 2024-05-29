@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="icon"  type="image/png" href="../images/Group 1 (5).png" >
+    <title>ANIME HUB</title>
+    <script src="../js/myScript.js" defer></script>
+    <script src="https://kit.fontawesome.com/ea57bc9b7c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body id="hidden" type="button" onscroll="bypass()" onmouseup="don()" onload="loa()">
+   
+    
+    <section class="banners">
+
+        <div id="login-page">
+            
+            <div id="login-form-1">
+                <div class="cross" type="button" onclick="lognone()"></div> 
+                <h1>Let's<span>Start</span></h1>
+
+                <div class="logins">
+                    <h2>*Login</h2>
+                    <div class="login-items">
+                        <div class="phn-num">
+                            <h3>*Phone number</h3>
+                            <div class="IN">
+                                <input type="number" placeholder="Enter your 10 digit mobile number">
+                            </div>
+                           
+                        </div>
+                        <div class="pass">
+                            <h3>*Password</h3>
+                            <div class="in">
+                                <input id="put" type="password" placeholder="Enter your password">
+                                <i class="fa-solid fa-eye-slash" id="eyeclose" type="button" onclick="off()"></i>
+                                <i class="fa-solid fa-eye" id="eyeopen" type="button" onclick="open1()"></i>
+                            </div>
+                           
+                           
+                        </div>
+                        <p>GET OTP</p>
+                        <p>Forget your password?</p>
+                        <h2>Or</h2>
+                        <h4>Login with</h4>
+                        <div class="media">
+                            <img src="../images/google (2).png" alt="png">
+                            <img src="../images/facebook (3).png" alt="png">
+                            <img src="../images/twitter (5).png" alt="png">
+                        </div>
+        
+                        <div class="check">
+                            <input type="checkbox">
+                            <p>By Confirming, you are agree to our Terms and Conditions and Privacy Policy.</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      
+
+
+        <div class="nav-bar">
+            <div class="left-nav-bar">
+                <img src="../images/Group 1@2x.png" alt="logo">
+                <div class="menu-items">
+                    <div class=" home">
+                        <a href="../html/index.html"  id="Action"><i class="fa-solid fa-house"></i></a>
+                        <a href="../html/index.html"  id="Action">HOME</a>
+                    </div>
+    
+                    <div class=" tv-show">
+                        <a href="../html/tv show.html"><i class="fa-solid fa-tv"></i></a>
+                        <a href="../html/tv show.html"> SHOWS</a>
+                    </div>
+    
+                    <div class="movies">
+                        <a href="../html/movies.html"><i class="fa-solid fa-film"></i></a>
+                        <a href="../html/movies.html">MOVIES</a>
+                    </div>
+    
+                    <div class="downloads">
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                        <a href="#">DOWNLOADS</a>
+                    </div>
+    
+                    <div class="more">
+                        <a href="../html/more.html"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        <a href="../html/more.html">MORE</a>
+                        
+                    </div>
+    
+    
+                    <div class="add-list">
+                        <a href="#"><i class="fa-regular fa-bookmark"></i></a>
+                        <a href="#">WATCHLIST</a>
+                    </div>
+        
+                    <div class="help">
+                        <a href="#"><i class="fa-solid fa-headset"></i></a>
+                        <a href="#">HELP</a>
+                    </div>
+        
+                    <div class="settings">
+                        <a href="#"><i class="fa-solid fa-gears"></i></a>
+                        <a href="#">SETTINGS</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="right-nav-bar">
+                
+                <i class="fa-solid fa-magnifying-glass" id="glass" type="button" onclick="CHANGE()"></i>
+                <i class="fa-solid fa-xmark" id="x_mark"  type="button" onclick="CHANGE2()"></i>
+                <p>Subscribe</p>
+                <p type="button" onclick="golog()">LOGIN</p>
+                
+            </div>
+        </div>
+
+        <div id="search-bar" type="button" onclick="bar()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="put5" type="search" >
+            <p id="search">Search,</p>
+        </div>
+
+        <div class="slider">
+            <a href="">
+                <div class="slider-1" type="button"   onclick="scleft4()">
+                    <div class="slider-1-text">
+                        <div class="go-1-next">
+            
+                            <a href=""><img src="../images/play-button-arrowhead (2).png" alt="img" onclick="clc(event)"></a>
+                            <p class="change-text-1">Play Season 1</p>
+            
+                            <div class="watchlist-1-1">
+                                <i class="fa-solid fa-bookmark" id="saved4" type="button" ></i>
+                                <i class="fa-solid fa-check" id="checkd4" type="button"   ></i>
+                                <p id="watch-list-1">Added to Watchlist</p>
+                            </div>
+                        </div>
+            
+                        <h3 class="under-text-1">Crime - Drama - Adventure - U/A 15+</h3>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="">
+                <div class="slider-2" type="button"  onclick="scleft3()">
+                    <div class="slider-2-text">
+                        <div class="go-2-next">
+            
+                            <a href=""><img src="../images/play-button-arrowhead (2).png" alt="img" onclick="clc(event)"></a>
+                            <p class="change-text-2">Play Season 1</p>
+            
+                            <div class="watchlist-1-2">
+                                <i class="fa-solid fa-bookmark" id="saved3" type="button" ></i>
+                                <i class="fa-solid fa-check" id="checkd3" type="button"   ></i>
+                                <p id="watch-list-2">Added to Watchlist</p>
+                            </div>
+                        </div>
+            
+                        <h3 class="under-text-2">Action - Comedy - Adventure - U/A 13+</h3>
+                    </div>
+                </div>
+            </a>
+
+
+          <a href="">
+            <div class="slider-5" type="button" class="slide5"  onclick="scleft2()">
+                <div class="slider-5-text">
+                    <div class="go-5-next">
+        
+                        <a href=""><img src="../images/play-button-arrowhead (2).png" alt="img" onclick="clc(event)"></a>
+                        <p class="change-text-5">Play</p>
+        
+                        <div class="watchlist-1-5">
+                           
+                            <i class="fa-solid fa-bookmark" id="saved2" type="button" ></i>
+                            <i class="fa-solid fa-check" id="checkd2" type="button"   ></i>
+                            <p id="watch-list-5">Added to Watchlist</p>
+                        </div>
+                    </div>
+        
+                    <h3 class="under-text-5">Adventure - Familly - U/A 13+</h3>
+                </div>
+           </div>
+          </a>
+
+
+        <a href="">
+            <div class="slider-4" type="button" class="slide4"  onclick="scleft1()" >
+                <div class="slider-4-text">
+                    <div class="go-4-next">
+        
+                        <a href="../html/../html/silent-voice.html"><img src="../images/play-button-arrowhead (2).png" alt="img" onclick="clc(event)"></a>
+                        <p class="change-text-4">Play</p>
+        
+                        <div class="watchlist-1-4">
+                            
+                           
+
+                            <i class="fa-solid fa-bookmark" id="saved1" type="button"></i>
+                            <i class="fa-solid fa-check" id="checkd1" type="button"  ></i>
+                            
+                            <p id="watch-list-4">Added to Watchlist</p>
+                        </div>
+                    </div>
+        
+                    <h3 class="under-text-4">  Romance - Drama - U/A 13+</h3>
+                </div>
+            </div>
+        </a>
+           
+            <a href="../html/erased.html" >
+                <div class="slider-3"  type="button" class="slide3"  onclick="scleft()">
+                    <div class="slider-text" >
+                        <div class="go-next">
+                            
+                            <a href="../html/erased.html"><img src="../images/play-button-arrowhead (2).png" alt="img"  onclick="clc(event)"></a>
+                            <p class="change-text">Play Season 1</p>
+                            
+                            <div class="watchlist-1" >
+                                <i class="fa-solid fa-bookmark" id="saved" type="button"  ></i>
+                                <i class="fa-solid fa-check" id="checkd" type="button"  ></i>
+                                
+                                <p id="watch-list">Added to Watchlist</p>
+                            </div>
+                        </div>
+                        
+                            <h3 class="under-text"> Crime - Thriller - Drama - U/A 15+</h3>
+                    </div>
+                </div>
+            </a>
+            
+                
+           
+           
+
+           
+        </div>
+
+        
+      <div id="cir_cle">
+      
+        <i class="fa-solid fa-circle"  class="roundness" id="activated"  type="button" onclick="circle()"></i>
+        <i class="fa-solid fa-circle"  class="roundness"  type="button" onclick="circle1()"></i>
+        <i class="fa-solid fa-circle"  class="roundness"   type="button" onclick="circle2()"></i>
+        <i class="fa-solid fa-circle"  class="roundness"   type="button" onclick="circle3()"></i>
+        <i class="fa-solid fa-circle"  class="roundness"   type="button" onclick="circle4()"></i>
+      
+       
+      </div>
+        
+    </section>
+
+    <section class="cards">
+        <div class="action">
+            <div class="action-text">
+                <h2>Action & Adventure</h2>
+
+                <p>View all</p>
+            </div>
+             
+            <div class="entertainment">
+                <div class="gintama">
+                    <img src="../images/Mask Group 8.png" alt="img">
+                   
+                    <div class="hover">
+                        <h1>GINTAMA: THE VERY FINAL</h1>
+                        <h3>2021 <span>1h  44m</span> </h3>
+                        
+                        <div class="text">
+                            <p><span>4</span>K UHD</p>
+                            <p>U/A <span>14+</span></p>
+                            <p>IMDB: <span>8.5</span></p>
+
+                        </div>
+
+                        <div class="genere">
+                            <p>ACTION</p>
+                            <p>ADVENTURE</p>
+                            <P>COMEDY</P>
+                        </div>
+
+                        <h2>Gintoki, Takasugi and Katsura fight past the Tendoushuu forces, who have taken over the Terminal. 
+                            The mothership at the top of the terminal is absorbing large amounts of Altana and channeling it 
+                            into the body of the child Shouyou in order to resurrect him and obtain true immortality.</h2>
+
+                        <div class="list">
+                                <a href=""><i class="fa-solid fa-play"></i> 
+                                    <p class="play-hover">Play</p>
+                                </a>
+                               
+                                <div class="watchlist">
+                                    <i class="fa-solid fa-bookmark" id="mark" type="button" onclick="tosave()"></i>
+                                    <i class="fa-solid fa-check" id="CHECK" type="button" onclick="tounsave()"></i>
+                                    <p id="my-list-hover">Add to Watchlist</p>
+                                </div>
+                               
+                            </div>
+
+                    </div>
+                </div>
+    
+                <div class="suzume">
+                    <img src="../images/Mask Group 9.png" alt="img">
+
+                    <div class="hover">
+                        <h1>Suzume</h1>
+                        <h3>2022 <span>2h  2m</span> </h3>
+                        
+                        <div class="text">
+                            <p><span>4</span>K UHD</p>
+                            <p>U/A <span>14+</span></p>
+                            <p>IMDB: <span>7.7</span></p>
+
+                        </div>
+
+                        <div class="genere">
+                            <p>ACTION</p>
+                            <p>ADVENTURE</p>
+                            
+                        </div>
+
+                        <h2>A modern action adventure road story where a 17-year-old girl named Suzume helps a mysterious young man close doors from the other side that are releasing disasters all over in Japan.</h2>
+
+                         <div class="list">
+                                <a href=""><i class="fa-solid fa-play"></i> 
+                                    <p class="play-hover">Play</p>
+                                </a>
+                               
+                                <div class="watchlist">
+                                    <i class="fa-solid fa-bookmark" id="mark1" type="button" onclick="tosave1()"></i>
+                                    <i class="fa-solid fa-check" id="CHECK1" type="button" onclick="tounsave1()"></i>
+                                    <p id="my-list-hover">Add to Watchlist</p>
+                                </div>
+                               
+                            </div>
+
+                    </div>
+                </div>
+
+                <div class="monoke">
+                    <img  src="../images/Mask Group 12.png" alt="img">
+                </div>
+                
+                <div class="naruto">
+                    <img src="../images/Mask Group 13.png" alt="img">
+                </div>
+                
+                <div class="demon">
+                    <img src="../images/Mask Group 14.png" alt="img"> 
+                </div>
+                
+               
+              
+               
+            </div>
+           
+            
+        </div>
+
+        <div class="action">
+            <div class="action-text">
+                <h2>Rom-Com</h2>
+                <p>View all</p>
+            </div>
+             
+            <div class="entertainment-1">
+               
+                <div class="gintama">
+                    <img src="../images/Mask Group 20.png" alt="img">
+                </div>
+    
+                <div class="suzume">
+                    <img src="../images/Mask Group 21.png" alt="img">
+                </div>
+
+                <div class="monoke">
+                    <img src="../images/MV5BNDM4MWE3NGQtODlkYS00NWU5LTg3ZjMtMTEyNjljOWI4NWIxXkEyXkFqcGdeQXVyNzkzODk2Mzc@._V1_.png" alt="img">
+                </div>
+                
+                <div class="naruto">
+                    <img src="../images/Mask Group 23.png" alt="img">
+                </div>
+                
+                <div class="demon">
+                    <img src="../images/Mask Group 24.png" alt="img">  
+                </div>
+                
+            </div>
+           
+            
+        </div>
+
+        <div class="action">
+            <div class="action-text">
+                <h2>Top Rated<span>Movies & Series</span></h2>
+                <p>View all</p>
+            </div>
+             
+            <div class="entertainment-2">
+                
+                <div class="top-rated">
+                    <h3 class="one">1</h3>
+                    
+                    <img src="../images/Mask Group 76.png" alt="img">
+                </div>
+               
+                <div class="top-rated">
+                    <h3 class="two">2</h3>
+                  
+                    <img src="../images/Mask Group 77.png" alt="img">
+                </div>
+               
+                <div class="top-rated">
+                    <h3 class="three">3</h3>
+                  
+                    <img src="../images/Mask Group 73@2x.png" alt="img">
+                </div>
+               
+                <div class="top-rated">
+                    <h3 class="four">4</h3>
+                    
+                    <img src="../images/Mask Group 75.png" alt="img">
+                </div>
+               
+                <div class="top-rated">
+                    <h3 class="five">5</h3>
+                   
+                    <img src="../images/Mask Group 183.png" alt="img">
+                </div>
+               
+                
+              
+            </div>
+           
+            
+        </div>
+
+        <div class="action">
+            <div class="action-text">
+                <h2>Thriller & Suspence</h2>
+                <p>View all</p>
+            </div>
+             
+            <div class="entertainment-1">
+
+                <div class="gintama">
+                    <img src="../images/Mask Group 39.png" alt="img">
+                </div>
+    
+                <div class="suzume">
+                    <img src="../images/Mask Group 40.png" alt="img">
+                </div>
+
+                <div class="monoke">
+                    <img src="../images/Mask Group 41.png" alt="img">
+                </div>
+                
+                <div class="naruto">
+                    <img src="../images/Mask Group 42.png" alt="img">
+                </div>
+                
+                <div class="demon">
+                    <img src="../images/Mask Group 43.png" alt="img"> 
+                </div>
+                
+            </div>
+           
+            
+        </div>
+
+        <div class="action">
+            <div class="action-text">
+                <h2>Sci-Fi</h2>
+                <p>View all</p>
+            </div>
+             
+            <div class="entertainment-1">
+
+                <div class="gintama">
+                    <img src="../images/Mask Group 44.png" alt="img">
+                </div>
+    
+                <div class="suzume">
+                    <img src="../images/Mask Group 45.png" alt="img">
+                </div>
+
+                <div class="monoke">
+                    <img src="../images/aldnoah-zero-season-one-vol-2-2.jpg" alt="img">
+                </div>
+                
+                <div class="naruto">
+                    <img src="../images/Mask Group 47.png" alt="img">
+                </div>
+                
+                <div class="demon">
+                    <img src="../images/Mask Group 48.png" alt="img"> 
+                </div>
+            </div>
+           
+            
+        </div>
+
+        
+    </section>
+
+    <section class="footer">
+        <img src="../images/Group 1@2x.png" alt="logo">
+        <h3>Terms & Privacy Policy <span>  Send Us Feedback</span></h3>
+        <p>2023 <span><i class="fa-regular fa-copyright"></i></span> Created by Pallab Bhattacharjee | All Rights Reserved</p>
+    </section>
+    
+    
+
+   
+
+   
+    
+   
+</body>
+</html>

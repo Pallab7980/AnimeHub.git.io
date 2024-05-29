@@ -8300,7 +8300,7 @@ padding: 5% 0;
     
 
     .right-nav-bar {
-        width: 52%;
+        width: 54%;
        
         height: auto;
         display: flex;
@@ -11712,13 +11712,13 @@ padding: 5% 0;
     }
 
     .right-nav-bar {
-        width: 47%;
-       right: 4%;
+        width: 50%;
+        
         height: auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        padding: 0 30px;
+        padding: 0 25px;
     }
     
     .menu-items-1 a:nth-child(2) {
@@ -12247,7 +12247,7 @@ padding: 5% 0;
 
     .right-nav-bar {
         width: 47%;
-       right: 5.5%;
+       right: 6%;
         height: auto;
         display: flex;
         align-items: center;

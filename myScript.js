@@ -1492,7 +1492,9 @@ function don() {
 function loa() {
     Notification.requestPermission(()=>{
       if(Notification.permission ==="granted") {
-  new Notification("Welcome to our world");
+  new Notification("Welcome to AnimeHub", {
+    icon:'Group 1@2x.png';
+  });
       }
   
       

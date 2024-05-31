@@ -8474,7 +8474,8 @@ padding: 5% 0;
         left: 50%;
         height: 65px;
         /* top: 1855%; */
-        bottom: 0;
+        
+        bottom: -5%;
         z-index: 10000;
         background-color: rgb(34, 34, 34);
         overflow-x: auto;
@@ -8496,7 +8497,7 @@ padding: 5% 0;
         left: 50%;
         height: 65px;
         /* top: 93%; */
-        bottom: 0;
+        bottom: -5%;
         z-index: 10000;
         background-color: rgb(34, 34, 34);
         overflow-x: auto;
@@ -10479,7 +10480,7 @@ padding: 5% 0;
            overflow-x: auto;
            overflow-y: hidden;
             /* top: 1875%; */
-            bottom: 0;
+            bottom: -5%;
             z-index: 100000;
             background-color: rgb(34, 34, 34);
             border-radius: 15px;
@@ -10498,7 +10499,8 @@ padding: 5% 0;
             left: 50%;
            overflow-x: auto;
            overflow-y: hidden;
-            top: 1795%;
+            /* top: 1795%; */
+            bottom: -5%;
             z-index: 100000;
             background-color: rgb(34, 34, 34);
             border-radius: 15px;
@@ -11710,7 +11712,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         /* top: 1940%; */
-        bottom: 0;
+        bottom: -5%;
         padding-top: unset;
         height: 60px;
         padding-bottom: unset;
@@ -11728,7 +11730,8 @@ padding: 5% 0;
         justify-content: space-around;
         position: fixed;
         left: 50%;
-        top: 88%;
+        /* top: 88%; */
+        bottom: -5%;
         padding-top: unset;
         height: 60px;
         padding-bottom: unset;
@@ -11762,7 +11765,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         /* top: 88%; */
-        bottom: 0;
+        bottom: -5%;
         padding-top: unset;
         height: 60px;
         padding-bottom: unset;
@@ -11781,7 +11784,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         /* top: 88%; */
-        bottom: 0;
+        bottom: -5%;
         padding-top: unset;
         height: 60px;
         padding-bottom: unset;
@@ -12079,7 +12082,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         /* top: 1940%; */
-        bottom: 0;
+        bottom: -5%;
         padding-top: unset;
         height: 60px;
         padding-bottom: unset;
@@ -12104,7 +12107,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         /* top: 88%; */
-        bottom: 0;
+        bottom: -5%;
         padding-top: unset;
         height: 60px;
         padding-bottom: unset;
@@ -12236,7 +12239,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         /* top: 1940%; */
-        bottom: 0;
+        bottom: -5%;
         padding-top: unset;
         height: 60px;
         padding-bottom: unset;
@@ -12261,7 +12264,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         /* top: 1940%; */
-        bottom: 0;
+        bottom: -5%;
         padding-top: unset;
         height: 60px;
         padding-bottom: unset;

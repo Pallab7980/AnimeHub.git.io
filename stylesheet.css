@@ -6,7 +6,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-     a {
+    a {
         text-decoration: none;
         color: unset;
     }
@@ -14,14 +14,7 @@
 
 
 
-.vide {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: fixed;
-    
-   
-}
+
 #mode {
     background-color: black;
     width: 100%;
@@ -8035,7 +8028,7 @@ padding: 4% 0;
 
 
 
-@media (max-width:450px) {
+@media (max-width:430px) {
 
     #exit {
         width: 90%;
@@ -8473,7 +8466,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         height: 65px;
-        top: 1840%;
+        top: 1855%;
         z-index: 10000;
         background-color: rgb(34, 34, 34);
         overflow-x: auto;
@@ -8494,7 +8487,7 @@ padding: 5% 0;
         position: fixed;
         left: 50%;
         height: 65px;
-        top: 90%;
+        top: 93%;
         z-index: 10000;
         background-color: rgb(34, 34, 34);
         overflow-x: auto;
@@ -10476,7 +10469,7 @@ padding: 5% 0;
             left: 50%;
            overflow-x: auto;
            overflow-y: hidden;
-            top: 1860%;
+            top: 1875%;
             z-index: 100000;
             background-color: rgb(34, 34, 34);
             border-radius: 15px;
@@ -10495,7 +10488,7 @@ padding: 5% 0;
             left: 50%;
            overflow-x: auto;
            overflow-y: hidden;
-            top: 1780%;
+            top: 1795%;
             z-index: 100000;
             background-color: rgb(34, 34, 34);
             border-radius: 15px;

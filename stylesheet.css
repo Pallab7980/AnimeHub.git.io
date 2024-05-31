@@ -11,6 +11,7 @@
 a {
     text-decoration: none;
 }
+
 .vide {
     width: 100%;
     height: 100%;
@@ -4163,9 +4164,9 @@ border: 2px solid white;
     width: 150px;
     position: absolute;
     top: 100px;
-  opacity: 1;
-  transition: 1s ease-in-out ;
-    display: none;
+  opacity: 0;
+  transition: 0.5s ease-in-out ;
+    
 }
 
 #share-options::after {
@@ -7291,7 +7292,7 @@ padding: 4% 0;
         position: absolute;
         top: 95px;
       
-        display: none;
+        
     }
     
     #share-options::after {
@@ -10614,7 +10615,7 @@ padding: 5% 0;
            margin-top: 4%;
            width: 60%;
            min-width: 350px;
-           overflow-x: auto;
+           
         }
 
        
@@ -10625,7 +10626,7 @@ padding: 5% 0;
             align-items: center;
             position: relative;
            cursor: pointer;
-          
+          overflow: visible;
         }
 
        
@@ -10730,14 +10731,16 @@ padding: 5% 0;
             top: 0.1px;
         } 
     
+       
+
+       
+
         #share-options {
             background-color: white;
             height: auto;
             width: 95px;
             position: absolute;
-            top: 65px;
-          
-            display:none ;
+            top: 45px;
         }
         
         #share-options::after {

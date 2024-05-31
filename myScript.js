@@ -621,39 +621,40 @@ function next1(){
 }
 
 
-let episode = document.querySelector(".episode");
-    
-episode.addEventListener('click', ()=>{
+function en(){
+    let episode = document.querySelector(".episode");
     episode.setAttribute("id", "down-bar");
 document.querySelector(".details").setAttribute("id", "");
 document.querySelector(".episode1").setAttribute("id", "");
 document.querySelector(".ep-segment").style="display:block";
 document.querySelector(".epi-details").style="display:none";
 document.querySelector(".relet-img").style="display:none";
-}); 
+}; 
 
 
-let details = document.querySelector(".details");
+
     
-details.addEventListener('click', ()=>{
+function dn(){
+    let details = document.querySelector(".details");
     details.setAttribute("id", "down-bar");
 document.querySelector(".episode").setAttribute("id", "");
 document.querySelector(".episode1").setAttribute("id", "");
 document.querySelector(".ep-segment").style="display:none";
 document.querySelector(".epi-details").style="display:block";
 document.querySelector(".relet-img").style="display:none";
-}); 
+}; 
 
-let episode1 = document.querySelector(".episode1");
+
     
-episode1.addEventListener('click', ()=>{
+function En(){
+    let episode1 = document.querySelector(".episode1");
     episode1.setAttribute("id", "down-bar");
 document.querySelector(".details").setAttribute("id", "");
 document.querySelector(".episode").setAttribute("id", "");
 document.querySelector(".ep-segment").style="display:none";
 document.querySelector(".epi-details").style="display:none";
 document.querySelector(".relet-img").style="display:inline-flex";
-});
+};
 
 
 

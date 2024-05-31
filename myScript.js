@@ -76,7 +76,7 @@ function lognone() {
     }
 
     function shares() {
-        document.getElementById('share-options').style="display:block;";
+        document.getElementById('share-options').style="opacity:1;";
         
     }
 

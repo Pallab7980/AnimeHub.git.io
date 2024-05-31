@@ -12,7 +12,14 @@ a {
     text-decoration: none;
 }
 
-
+.vide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    
+   
+}
 #mode {
     background-color: black;
     width: 100%;
@@ -653,7 +660,7 @@ font-size: 0.4em ;
 .slider-1 {
     height: 600px;
     width: 94%;
-    background-image: linear-gradient(to bottom, transparent 10%, #56120adf ), url(Mask\ Group\ 7@2x.png);
+    background-image: linear-gradient(to bottom, transparent 10%, #56120adf ), url(../images/Mask\ Group\ 7@2x.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -884,7 +891,7 @@ cursor: pointer;
 .slider-2 {
     height: 600px;
     width: 94%;
-    background-image: linear-gradient(to bottom, transparent,hsla(194, 85%, 13%, 0.871)), url(6343d0db1cb668001cdf4f55.jpg);
+    background-image: linear-gradient(to bottom, transparent,hsla(194, 85%, 13%, 0.871)), url(../images/6343d0db1cb668001cdf4f55.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1038,7 +1045,7 @@ cursor: pointer;
 .slider-3 {
     height: 600px;
     width: 94%;
-    background-image: linear-gradient(to bottom, transparent 10%,hsla(11, 37%, 31%, 0.752)), url(Mask\ Group\ 49@2x.png);
+    background-image: linear-gradient(to bottom, transparent 10%,hsla(11, 37%, 31%, 0.752)), url(../images/Mask\ Group\ 49@2x.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1070,7 +1077,7 @@ cursor: pointer;
 .slider-4 {
     height: 600px;
     width: 94%;
-    background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(Mask\ Group\ 3@2x.png);
+    background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(../images/Mask\ Group\ 3@2x.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1227,7 +1234,7 @@ cursor: pointer;
 .slider-5 {
     height: 600px;
     width: 94%;
-    background-image: linear-gradient(to bottom, transparent,#000000df), url(Mask\ Group\ 2@2x.png);
+    background-image: linear-gradient(to bottom, transparent,#000000df), url(../images/Mask\ Group\ 2@2x.png);
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2204,7 +2211,7 @@ font-size: 0.9em;
     /* position: absolute; */
     transform: scale(0);
     opacity: 0;
-    background-image: linear-gradient(to bottom, transparent 10%, #56120af8), url(Mask\ Group\ 7@2x.png);
+    background-image: linear-gradient(to bottom, transparent 10%, #56120af8), url(../images/Mask\ Group\ 7@2x.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2360,7 +2367,7 @@ cursor: pointer;
     z-index: -4;
     opacity: 0;
     transform: scale(0);
-    background-image: linear-gradient(to bottom, transparent 10%, hsla(194,85%,13%,0.932)90%), url(heavenly-delusion_570923\ \(1\).png);
+    background-image: linear-gradient(to bottom, transparent 10%, hsla(194,85%,13%,0.932)90%), url(../images/heavenly-delusion_570923\ \(1\).png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2515,7 +2522,7 @@ cursor: pointer;
 .slider-3-1 {
     height: 600px;
     width: 94%;
-    background-image: linear-gradient(to bottom, transparent 20%, #475258ce 80%), url(Mask\ Group\ 6.png);
+    background-image: linear-gradient(to bottom, transparent 20%, #475258ce 80%), url(../images/Mask\ Group\ 6.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2674,7 +2681,7 @@ cursor: pointer;
     z-index: -4;
     opacity: 0;
     transform: scale(0);
-    background-image: linear-gradient(to bottom, transparent 20%, #2D314A), url(Mask\ Group\ 50.png);
+    background-image: linear-gradient(to bottom, transparent 20%, #2D314A), url(../images/Mask\ Group\ 50.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2832,7 +2839,7 @@ cursor: pointer;
     z-index: -4;
     opacity: 0;
     transform: scale(0);
-    background-image: linear-gradient(to bottom, transparent, hsla(11,33%,32%, 0.37)), url(Mask\ Group\ 49.png);
+    background-image: linear-gradient(to bottom, transparent, hsla(11,33%,32%, 0.37)), url(../images/Mask\ Group\ 49.png);
     border: 3px solid #FF0000;
     display: flex;
     align-items: flex-end;
@@ -2982,7 +2989,7 @@ cursor: pointer;
     z-index: -4;
     transform: scale(0);
     /* position: absolute; */
-    background-image: linear-gradient(to bottom, transparent 10%, #6a2821f8 ), url(7a5ba55914b290ce0528b41678f086462e3adbb0924ef8dd0e671ac0fd59a1e7.jpg);
+    background-image: linear-gradient(to bottom, transparent 10%, #6a2821f8 ), url(../images/7a5ba55914b290ce0528b41678f086462e3adbb0924ef8dd0e671ac0fd59a1e7.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3155,7 +3162,7 @@ cursor: pointer;
     transform: scale(0);
     position: absolute;
    
-    background-image: linear-gradient(to bottom, transparent 10%,#3f4322ca 90%), url(812590b17e844b97781cce9a5bb5b09f88d62b24.jpg);
+    background-image: linear-gradient(to bottom, transparent 10%,#3f4322ca 90%), url(../images/812590b17e844b97781cce9a5bb5b09f88d62b24.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3315,7 +3322,7 @@ cursor: pointer;
     transform: scale(1);
     position: absolute;
     transition: 1.5s;
-    background-image: linear-gradient(to bottom, transparent 10%,#2f2b22ed 90%), url(Mask\ Group\ 63.png);
+    background-image: linear-gradient(to bottom, transparent 10%,#2f2b22ed 90%), url(../images/Mask\ Group\ 63.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3465,7 +3472,7 @@ cursor: pointer;
     z-index: -4;
     transform: scale(0);
     position: absolute;
-    background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(Mask\ Group\ 3@2x.png);
+    background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(../images/Mask\ Group\ 3@2x.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3621,7 +3628,7 @@ cursor: pointer;
     z-index: -4;
     transform: scale(0);
     position: absolute;
-    background-image: linear-gradient(to bottom, transparent,#000000df), url(Mask\ Group\ 2@2x.png);
+    background-image: linear-gradient(to bottom, transparent,#000000df), url(../images/Mask\ Group\ 2@2x.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3851,7 +3858,7 @@ z-index: 100000;
 .erased-banner {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to bottom  , transparent, #000000 ), url(Mask\ Group\ 93.png);
+    background-image: linear-gradient(to bottom  , transparent, #000000 ), url(../images/Mask\ Group\ 93.png);
     padding-top: 22%;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -4596,7 +4603,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(20160224-bokumachi06-10\ \(1\)@2x.png);
+    background-image: url(../images/20160224-bokumachi06-10\ \(1\)@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4610,7 +4617,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 95@2x.png);
+    background-image: url(../images/Mask\ Group\ 95@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4624,7 +4631,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 98@2x.png);
+    background-image: url(../images/Mask\ Group\ 98@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4638,7 +4645,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 99@2x.png);
+    background-image: url(../images/Mask\ Group\ 99@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4652,7 +4659,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 100@2x.png);
+    background-image: url(../images/Mask\ Group\ 100@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4666,7 +4673,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 101@2x.png);
+    background-image: url(../images/Mask\ Group\ 101@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4680,7 +4687,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 102@2x.png);
+    background-image: url(../images/Mask\ Group\ 102@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4694,7 +4701,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 103@2x.png);
+    background-image: url(../images/Mask\ Group\ 103@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4708,7 +4715,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 104@2x.png);
+    background-image: url(../images/Mask\ Group\ 104@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4722,7 +4729,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 105@2x.png);
+    background-image: url(../images/Mask\ Group\ 105@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4736,7 +4743,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 106@2x.png);
+    background-image: url(../images/Mask\ Group\ 106@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4750,7 +4757,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Mask\ Group\ 107@2x.png);
+    background-image: url(../images/Mask\ Group\ 107@2x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4827,7 +4834,7 @@ font-weight: 500;
 .soulful-banner {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(to bottom , transparent, #000000), url(Mask\ Group\ 3@2x.png);
+    background-image: linear-gradient(to bottom , transparent, #000000), url(../images/Mask\ Group\ 3@2x.png);
     padding-top: 15%;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -5419,20 +5426,23 @@ padding: 4% 0;
     
 }
 
+
+
 .bannerss {
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom,hsl(11, 37%, 31%) , #181818 50%,  #000000 100% );
+    background: linear-gradient(to bottom,#475258 , #181818 50%,  #000000 100% );
     padding-bottom: 7%;
     padding-top: 10%;
     transition: all 2s ease-in-out;
     
 }
 
+
 .bannersss {
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom,hsl(11, 37%, 31%) , #181818 50%,  #000000 100% );
+    background: linear-gradient(to bottom,#2f2b22 , #181818 50%,  #000000 100% );
     padding-bottom: 7%;
     padding-top: 10%;
     transition: all 2s ease-in-out;
@@ -5477,7 +5487,7 @@ padding: 4% 0;
     .slider-1 {
         width: 94%;
         height: 350px;
-        background-image: linear-gradient(to bottom, transparent 10%, #56120adf ), url(Mask\ Group\ 7@2x.png);
+        background-image: linear-gradient(to bottom, transparent 10%, #56120adf ), url(../images/Mask\ Group\ 7@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -5494,7 +5504,7 @@ padding: 4% 0;
     .slider-2 {
         width: 94%;
         height: 350px;
-        background-image: linear-gradient(to bottom, transparent,hsla(194, 85%, 13%, 0.871)), url(6343d0db1cb668001cdf4f55.jpg);
+        background-image: linear-gradient(to bottom, transparent,hsla(194, 85%, 13%, 0.871)), url(../images/6343d0db1cb668001cdf4f55.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -5512,7 +5522,7 @@ padding: 4% 0;
     .slider-3 {
         width: 94%;
         height: 350px;
-        background-image: linear-gradient(to bottom, transparent 10%,hsla(11, 37%, 31%, 0.752)), url(Mask\ Group\ 49@2x.png);
+        background-image: linear-gradient(to bottom, transparent 10%,hsla(11, 37%, 31%, 0.752)), url(../images/Mask\ Group\ 49@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -5529,7 +5539,7 @@ padding: 4% 0;
     .slider-4 {
         width: 94%;
         height: 350px;
-        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(Mask\ Group\ 3@2x.png);
+        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(../images/Mask\ Group\ 3@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -5546,7 +5556,7 @@ padding: 4% 0;
     .slider-5 {
         width: 94%;
         height:350px ;
-        background-image: linear-gradient(to bottom, transparent,#000000df), url(Mask\ Group\ 2@2x.png);
+        background-image: linear-gradient(to bottom, transparent,#000000df), url(../images/Mask\ Group\ 2@2x.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -6280,7 +6290,7 @@ padding: 4% 0;
     .slider-1-1 {
         width: 94%;
         height: 350px;
-        background-image: linear-gradient(to bottom, transparent 10%, #56120af8 ), url(Mask\ Group\ 7@2x.png);
+        background-image: linear-gradient(to bottom, transparent 10%, #56120af8 ), url(../images/Mask\ Group\ 7@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -6359,7 +6369,7 @@ padding: 4% 0;
     .slider-2-1 {
         width: 94%;
         height: 350px;
-        background-image: linear-gradient(to bottom, transparent 10%,hsla(194, 85%, 13%, 0.932) 90%), url(heavenly-delusion_570923\ \(1\).png);
+        background-image: linear-gradient(to bottom, transparent 10%,hsla(194, 85%, 13%, 0.932) 90%), url(../images/heavenly-delusion_570923\ \(1\).png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -6438,7 +6448,7 @@ padding: 4% 0;
     .slider-3-1 {
         width: 94%;
         height: 350px;
-        background-image: linear-gradient(to bottom, transparent 20%,#475258ce 80%), url(Mask\ Group\ 6.png);
+        background-image: linear-gradient(to bottom, transparent 20%,#475258ce 80%), url(../images/Mask\ Group\ 6.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -6514,7 +6524,7 @@ padding: 4% 0;
     .slider-4-1 {
         width: 94%;
         height: 350px;
-        background-image: linear-gradient(to bottom, transparent 20%,#2D314A), url(Mask\ Group\ 50.png);
+        background-image: linear-gradient(to bottom, transparent 20%,#2D314A), url(../images/Mask\ Group\ 50.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -6595,7 +6605,7 @@ padding: 4% 0;
     .slider-5-1 {
         width: 94%;
         height:350px ;
-        background-image: linear-gradient(to bottom, transparent,hsla(11, 33%, 32%, 0.837)), url(Mask\ Group\ 49.png);
+        background-image: linear-gradient(to bottom, transparent,hsla(11, 33%, 32%, 0.837)), url(../images/Mask\ Group\ 49.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -6671,7 +6681,7 @@ padding: 4% 0;
         width: 94%;
         height: 350px;
         background-position: top;
-        background-image: linear-gradient(to bottom, transparent 10%, #6a2821f8 ), url(7a5ba55914b290ce0528b41678f086462e3adbb0924ef8dd0e671ac0fd59a1e7.jpg);
+        background-image: linear-gradient(to bottom, transparent 10%, #6a2821f8 ), url(../images/7a5ba55914b290ce0528b41678f086462e3adbb0924ef8dd0e671ac0fd59a1e7.jpg);
         
         background-size: cover;
         background-repeat: no-repeat;
@@ -6748,7 +6758,7 @@ padding: 4% 0;
         height: 350px;
         background-position: top;
        
-        background-image: linear-gradient(to bottom, transparent 10%,#3f4322ca 90%), url(812590b17e844b97781cce9a5bb5b09f88d62b24.jpg);
+        background-image: linear-gradient(to bottom, transparent 10%,#3f4322ca 90%), url(../images/812590b17e844b97781cce9a5bb5b09f88d62b24.jpg);
       
         background-size: cover;
         background-repeat: no-repeat;
@@ -6832,7 +6842,7 @@ padding: 4% 0;
         width: 94%;
         height: 350px;
         background-position: top;
-        background-image: linear-gradient(to bottom, transparent 10%,#2f2b22ed 90%), url(Mask\ Group\ 63.png);
+        background-image: linear-gradient(to bottom, transparent 10%,#2f2b22ed 90%), url(../images/Mask\ Group\ 63.png);
         
         background-size: cover;
         background-repeat: no-repeat;
@@ -6909,7 +6919,7 @@ padding: 4% 0;
         width: 94%;
         height: 350px;
         background-position: top;
-        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(Mask\ Group\ 3@2x.png);
+        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(../images/Mask\ Group\ 3@2x.png);
      
         background-size: cover;
         background-repeat: no-repeat;
@@ -6986,7 +6996,7 @@ padding: 4% 0;
         width: 94%;
         height: 350px;
         background-position: top;
-        background-image: linear-gradient(to bottom, transparent,#000000df), url(Mask\ Group\ 2@2x.png);
+        background-image: linear-gradient(to bottom, transparent,#000000df), url(../images/Mask\ Group\ 2@2x.png);
       
         background-size: cover;
         background-repeat: no-repeat;
@@ -7563,7 +7573,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(20160224-bokumachi06-10\ \(1\)@2x.png);
+        background-image: url(../images/20160224-bokumachi06-10\ \(1\)@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7579,7 +7589,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 95@2x.png);
+        background-image: url(../images/Mask\ Group\ 95@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7595,7 +7605,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 98@2x.png);
+        background-image: url(../images/Mask\ Group\ 98@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7611,7 +7621,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 99@2x.png);
+        background-image: url(../images/Mask\ Group\ 99@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7627,7 +7637,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 100@2x.png);
+        background-image: url(../images/Mask\ Group\ 100@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7643,7 +7653,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 101@2x.png);
+        background-image: url(../images/Mask\ Group\ 101@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7659,7 +7669,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 102@2x.png);
+        background-image: url(../images/Mask\ Group\ 102@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7675,7 +7685,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 103@2x.png);
+        background-image: url(../images/Mask\ Group\ 103@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7691,7 +7701,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 104@2x.png);
+        background-image: url(../images/Mask\ Group\ 104@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7707,7 +7717,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 105@2x.png);
+        background-image: url(../images/Mask\ Group\ 105@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7723,7 +7733,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 106@2x.png);
+        background-image: url(../images/Mask\ Group\ 106@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7739,7 +7749,7 @@ padding: 4% 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(Mask\ Group\ 107@2x.png);
+        background-image: url(../images/Mask\ Group\ 107@2x.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -7842,7 +7852,7 @@ padding: 4% 0;
     .soulful-banner {
         width: 100%;
         height: auto;
-        background-image: linear-gradient(to bottom , transparent, #000000), url(Mask\ Group\ 3@2x.png);
+        background-image: linear-gradient(to bottom , transparent, #000000), url(../images/Mask\ Group\ 3@2x.png);
         padding-top: 15%;
         padding-left: 5%;
         padding-bottom: 5%;
@@ -8543,25 +8553,30 @@ padding: 5% 0;
         
     }
 
+
+
     .bannerss {
         width: 100%;
         height: auto;
-        background: linear-gradient(to bottom,hsl(11, 37%, 31%) , #181818 50%,  #000000 100% );
+        background: linear-gradient(to bottom,#475258 , #181818 50%,  #000000 100% );
+        padding-bottom: 7%;
+        padding-top: 14%;
+        transition: all 2s ease-in-out;
+        
+    }
+    
+    
+    .bannersss {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to bottom,#2f2b22 , #181818 50%,  #000000 100% );
         padding-bottom: 7%;
         padding-top: 14%;
         transition: all 2s ease-in-out;
         
     }
 
-    .bannersss {
-        width: 100%;
-        height: auto;
-        background: linear-gradient(to bottom,hsl(11, 37%, 31%) , #181818 50%,  #000000 100% );
-        padding-bottom: 7%;
-        padding-top: 14%;
-        transition: all 2s ease-in-out;
-        
-    }
+   
     
         
         .slider {
@@ -8618,7 +8633,7 @@ padding: 5% 0;
     .slider-1 {
         width: 94%;
         height: 230px;
-        background-image: linear-gradient(to bottom, transparent 10%, #56120adf ), url(Mask\ Group\ 7@2x.png);
+        background-image: linear-gradient(to bottom, transparent 10%, #56120adf ), url(../images/Mask\ Group\ 7@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -8635,7 +8650,7 @@ padding: 5% 0;
     .slider-2 {
         width: 94%;
         height: 230px;
-        background-image: linear-gradient(to bottom, transparent,hsla(194, 85%, 13%, 0.871)), url(6343d0db1cb668001cdf4f55.jpg);
+        background-image: linear-gradient(to bottom, transparent,hsla(194, 85%, 13%, 0.871)), url(../images/6343d0db1cb668001cdf4f55.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -8653,7 +8668,7 @@ padding: 5% 0;
     .slider-3 {
         width: 94%;
         height: 230px;
-        background-image: linear-gradient(to bottom, transparent 10%,hsla(11, 37%, 31%, 0.752)), url(Mask\ Group\ 49@2x.png);
+        background-image: linear-gradient(to bottom, transparent 10%,hsla(11, 37%, 31%, 0.752)), url(../images/Mask\ Group\ 49@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -8670,7 +8685,7 @@ padding: 5% 0;
     .slider-4 {
         width: 94%;
         height: 230px;
-        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(Mask\ Group\ 3@2x.png);
+        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(../images/Mask\ Group\ 3@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -8687,7 +8702,7 @@ padding: 5% 0;
     .slider-5 {
         width: 94%;
         height: 230px;
-        background-image: linear-gradient(to bottom, transparent,#000000df), url(Mask\ Group\ 2@2x.png);
+        background-image: linear-gradient(to bottom, transparent,#000000df), url(../images/Mask\ Group\ 2@2x.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -9455,7 +9470,7 @@ padding: 5% 0;
         .slider-1-1 {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent 10%, #56120af8 ), url(Mask\ Group\ 7@2x.png);
+            background-image: linear-gradient(to bottom, transparent 10%, #56120af8 ), url(../images/Mask\ Group\ 7@2x.png);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -9472,7 +9487,7 @@ padding: 5% 0;
         .slider-2-1 {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent 10%,hsla(194, 85%, 13%, 0.932) 90%), url(heavenly-delusion_570923\ \(1\).png);
+            background-image: linear-gradient(to bottom, transparent 10%,hsla(194, 85%, 13%, 0.932) 90%), url(../images/heavenly-delusion_570923\ \(1\).png);
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -9490,7 +9505,7 @@ padding: 5% 0;
         .slider-3-1 {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent 20%,#475258ce 80%), url(Mask\ Group\ 6.png);
+            background-image: linear-gradient(to bottom, transparent 20%,#475258ce 80%), url(../images/Mask\ Group\ 6.png);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -9507,7 +9522,7 @@ padding: 5% 0;
         .slider-4-1 {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent 20%,#2D314A), url(Mask\ Group\ 50.png);
+            background-image: linear-gradient(to bottom, transparent 20%,#2D314A), url(../images/Mask\ Group\ 50.png);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -9524,7 +9539,7 @@ padding: 5% 0;
         .slider-5-1 {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent,hsla(11, 33%, 32%, 0.837)), url(Mask\ Group\ 49.png);
+            background-image: linear-gradient(to bottom, transparent,hsla(11, 33%, 32%, 0.837)), url(../images/Mask\ Group\ 49.png);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -9957,7 +9972,7 @@ padding: 5% 0;
             width: 94%;
             height: 230px;
             
-            background-image: linear-gradient(to bottom, transparent 10%, #6a2821f8 ), url(7a5ba55914b290ce0528b41678f086462e3adbb0924ef8dd0e671ac0fd59a1e7.jpg);
+            background-image: linear-gradient(to bottom, transparent 10%, #6a2821f8 ), url(../images/7a5ba55914b290ce0528b41678f086462e3adbb0924ef8dd0e671ac0fd59a1e7.jpg);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -9974,7 +9989,7 @@ padding: 5% 0;
         .slider-2-m {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent 10%,#3f4322ca 90%), url(812590b17e844b97781cce9a5bb5b09f88d62b24.jpg);
+            background-image: linear-gradient(to bottom, transparent 10%,#3f4322ca 90%), url(../images/812590b17e844b97781cce9a5bb5b09f88d62b24.jpg);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -9992,7 +10007,7 @@ padding: 5% 0;
         .slider-3-action {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent 10%,#2f2b22ed 90%), url(Mask\ Group\ 63.png);
+            background-image: linear-gradient(to bottom, transparent 10%,#2f2b22ed 90%), url(../images/Mask\ Group\ 63.png);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -10009,7 +10024,7 @@ padding: 5% 0;
         .slider-4-m {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(Mask\ Group\ 3@2x.png);
+            background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(../images/Mask\ Group\ 3@2x.png);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -10027,7 +10042,7 @@ padding: 5% 0;
         .slider-5-m {
             width: 94%;
             height: 230px;
-            background-image: linear-gradient(to bottom, transparent,#000000df), url(Mask\ Group\ 2@2x.png);
+            background-image: linear-gradient(to bottom, transparent,#000000df), url(../images/Mask\ Group\ 2@2x.png);
             background-position: top;
             background-size: cover;
             background-repeat: no-repeat;
@@ -10491,7 +10506,7 @@ padding: 5% 0;
         .soulful-banner {
             width: 100%;
             height: auto;
-            background-image: linear-gradient(to bottom , transparent, #000000), url(Mask\ Group\ 3@2x.png);
+            background-image: linear-gradient(to bottom , transparent, #000000), url(../images/Mask\ Group\ 3@2x.png);
             padding-top: 15%;
             padding-left: 5%;
             padding-bottom: 5%;
@@ -11247,7 +11262,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(20160224-bokumachi06-10\ \(1\)@2x.png);
+            background-image: url(../images/20160224-bokumachi06-10\ \(1\)@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11263,7 +11278,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 95@2x.png);
+            background-image: url(../images/Mask\ Group\ 95@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11279,7 +11294,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 98@2x.png);
+            background-image: url(../images/Mask\ Group\ 98@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11295,7 +11310,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 99@2x.png);
+            background-image: url(../images/Mask\ Group\ 99@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11311,7 +11326,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 100@2x.png);
+            background-image: url(../images/Mask\ Group\ 100@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11327,7 +11342,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 101@2x.png);
+            background-image: url(../images/Mask\ Group\ 101@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11343,7 +11358,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 102@2x.png);
+            background-image: url(../images/Mask\ Group\ 102@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11359,7 +11374,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 103@2x.png);
+            background-image: url(../images/Mask\ Group\ 103@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11375,7 +11390,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 104@2x.png);
+            background-image: url(../images/Mask\ Group\ 104@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11391,7 +11406,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 105@2x.png);
+            background-image: url(../images/Mask\ Group\ 105@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11407,7 +11422,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 106@2x.png);
+            background-image: url(../images/Mask\ Group\ 106@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -11423,7 +11438,7 @@ padding: 5% 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url(Mask\ Group\ 107@2x.png);
+            background-image: url(../images/Mask\ Group\ 107@2x.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -12361,22 +12376,25 @@ padding: 5% 0;
     .bannerss {
         width: 100%;
         height: auto;
-        background: linear-gradient(to bottom,hsl(11, 37%, 31%) , #181818 50%,  #000000 100% );
+        background: linear-gradient(to bottom,#475258 , #181818 50%,  #000000 100% );
+        padding-bottom: 7%;
+        padding-top: 14%;
+        transition: all 2s ease-in-out;
+        
+    }
+    
+    
+    .bannersss {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to bottom,#2f2b22 , #181818 50%,  #000000 100% );
         padding-bottom: 7%;
         padding-top: 14%;
         transition: all 2s ease-in-out;
         
     }
 
-    .bannersss {
-        width: 100%;
-        height: auto;
-        background: linear-gradient(to bottom,hsl(11, 37%, 31%) , #181818 50%,  #000000 100% );
-        padding-bottom: 7%;
-        padding-top: 14%;
-        transition: all 2s ease-in-out;
-        
-    }
+    
     
         
         .slider {
@@ -12433,7 +12451,7 @@ padding: 5% 0;
     .slider-1 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent 10%, #56120adf ), url(Mask\ Group\ 7@2x.png);
+        background-image: linear-gradient(to bottom, transparent 10%, #56120adf ), url(../images/Mask\ Group\ 7@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12450,7 +12468,7 @@ padding: 5% 0;
     .slider-2 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent,hsla(194, 85%, 13%, 0.871)), url(6343d0db1cb668001cdf4f55.jpg);
+        background-image: linear-gradient(to bottom, transparent,hsla(194, 85%, 13%, 0.871)), url(../images/6343d0db1cb668001cdf4f55.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12467,7 +12485,7 @@ padding: 5% 0;
     .slider-3 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent 10%,hsla(11, 37%, 31%, 0.752)), url(Mask\ Group\ 49@2x.png);
+        background-image: linear-gradient(to bottom, transparent 10%,hsla(11, 37%, 31%, 0.752)), url(../images/Mask\ Group\ 49@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12484,7 +12502,7 @@ padding: 5% 0;
     .slider-4 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(Mask\ Group\ 3@2x.png);
+        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(../images/Mask\ Group\ 3@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12501,7 +12519,7 @@ padding: 5% 0;
     .slider-5 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent,#000000df), url(Mask\ Group\ 2@2x.png);
+        background-image: linear-gradient(to bottom, transparent,#000000df), url(../images/Mask\ Group\ 2@2x.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12521,7 +12539,7 @@ padding: 5% 0;
     .slider-1-1 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent 10%, #56120af8 ), url(Mask\ Group\ 7@2x.png);
+        background-image: linear-gradient(to bottom, transparent 10%, #56120af8 ), url(../images/Mask\ Group\ 7@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12538,7 +12556,7 @@ padding: 5% 0;
     .slider-2-1 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent 10%,hsla(194, 85%, 13%, 0.932) 90%), url(heavenly-delusion_570923\ \(1\).png);
+        background-image: linear-gradient(to bottom, transparent 10%,hsla(194, 85%, 13%, 0.932) 90%), url(../images/heavenly-delusion_570923\ \(1\).png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12555,7 +12573,7 @@ padding: 5% 0;
     .slider-3-1 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent 20%,#475258ce 80%), url(Mask\ Group\ 6.png);
+        background-image: linear-gradient(to bottom, transparent 20%,#475258ce 80%), url(../images/Mask\ Group\ 6.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12572,7 +12590,7 @@ padding: 5% 0;
     .slider-4-1 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent 20%,#2D314A), url(Mask\ Group\ 50.png);
+        background-image: linear-gradient(to bottom, transparent 20%,#2D314A), url(../images/Mask\ Group\ 50.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12589,7 +12607,7 @@ padding: 5% 0;
     .slider-5-1 {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent,hsla(11, 33%, 32%, 0.837)), url(Mask\ Group\ 49.png);
+        background-image: linear-gradient(to bottom, transparent,hsla(11, 33%, 32%, 0.837)), url(../images/Mask\ Group\ 49.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12607,7 +12625,7 @@ padding: 5% 0;
         width: 94%;
         height: 200px;
         
-        background-image: linear-gradient(to bottom, transparent 10%, #6a2821f8 ), url(7a5ba55914b290ce0528b41678f086462e3adbb0924ef8dd0e671ac0fd59a1e7.jpg);
+        background-image: linear-gradient(to bottom, transparent 10%, #6a2821f8 ), url(../images/7a5ba55914b290ce0528b41678f086462e3adbb0924ef8dd0e671ac0fd59a1e7.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12624,7 +12642,7 @@ padding: 5% 0;
     .slider-2-m {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent 10%,#3f4322ca 90%), url(812590b17e844b97781cce9a5bb5b09f88d62b24.jpg);
+        background-image: linear-gradient(to bottom, transparent 10%,#3f4322ca 90%), url(../images/812590b17e844b97781cce9a5bb5b09f88d62b24.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12641,7 +12659,7 @@ padding: 5% 0;
     .slider-3-action {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent 10%,#2f2b22ed 90%), url(Mask\ Group\ 63.png);
+        background-image: linear-gradient(to bottom, transparent 10%,#2f2b22ed 90%), url(../images/Mask\ Group\ 63.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12658,7 +12676,7 @@ padding: 5% 0;
     .slider-4-m {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(Mask\ Group\ 3@2x.png);
+        background-image: linear-gradient(to bottom, transparent ,hsla(199, 94%, 6%, 0.929) 100%), url(../images/Mask\ Group\ 3@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -12675,7 +12693,7 @@ padding: 5% 0;
     .slider-5-m {
         width: 94%;
         height: 200px;
-        background-image: linear-gradient(to bottom, transparent,#000000df), url(Mask\ Group\ 2@2x.png);
+        background-image: linear-gradient(to bottom, transparent,#000000df), url(../images/Mask\ Group\ 2@2x.png);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;

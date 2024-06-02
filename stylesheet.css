@@ -8035,7 +8035,7 @@ padding: 4% 0;
 
 
 
-@media (max-width:450px) {
+@media (max-width:450px) and (max-height:1005px) {
 
     #exit {
         width: 90%;

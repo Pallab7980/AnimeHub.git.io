@@ -11035,7 +11035,7 @@ padding: 5% 0;
         }
 
         .relet-img img {
-           
+            border: 2px solid #FF0000;
             height: 150px;
             min-width: 250px;
         }
